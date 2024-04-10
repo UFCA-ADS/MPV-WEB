@@ -117,7 +117,7 @@ Contribuições são bem-vindas!
 
 1. Clone o repositório para o seu computador:
 ```shell
-git clone https://github.com/UFCA-ADS/MPV-WEB.git
+git clone https://github.com/UFCA-ADS/MVP-WEB.git
 ```
 2. Crie uma branch:
 ```shell
