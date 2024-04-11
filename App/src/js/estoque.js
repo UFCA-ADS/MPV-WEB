@@ -79,15 +79,19 @@ const clearTable = () => {
     rows.forEach(row => row.parentNode.removeChild(row));
 }
 
+const truncateText = (text, maxLength) => {
+    return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
+}
+
 const createRow = (produto, index) => {
     const newRow = document.createElement('tr');
     newRow.innerHTML = `
-        <td>${produto.codigo}</td>
-        <td>${produto.nome}</td>
-        <td>${produto.categoria}</td>
-        <td>${produto.fabricante}</td>
-        <td>${produto.quantidade}</td>
-        <td>${produto.valor}</td>
+        <td>${truncateText(produto.codigo, 15)}</td>
+        <td>${truncateText(produto.nome, 10)}</td>
+        <td>${truncateText(produto.categoria, 15)}</td>
+        <td>${truncateText(produto.fabricante, 15)}</td>
+        <td>${truncateText(produto.quantidade, 10)}</td>
+        <td>${truncateText(produto.valor, 10)}</td>
         <td>
             <button type="button" class="button green" id="edit-${index}">Editar</button>
             <button type="button" class="button red" id="delete-${index}" >Excluir</button>
