@@ -89,6 +89,7 @@ button.red{
 
 .records th{
     height: 50px;
+    width: 50px;
     background-color: var(--primary-color);
     padding-left: 20px;
     font-size: 1.2rem;    
@@ -109,7 +110,107 @@ button.red{
     background-color: var(--secundary-color);
 }
 
+@media (max-width: 971px){
+    header{
+        height: 50px;
+    }
+    .logo {
+        width: 120px;
+    }
+    .records{
+        max-width: 100%;
+        user-select: none;
+        text-align: left;
+        table-layout: fixed;
+    }
+    
+    .records th{
+        height: 30px;
+        padding-left: 0px;
+        font-size: 0.9rem;    
+    }
+    tbody{
+        font-size: 0.7rem;
+    }
+    .button{
+        border-style: none;
+        height: 25px;
+        padding: 6px 10px;
+        background-color: black;
+        color: white;
+        font-size: 0.7rem;
+        cursor: pointer;
+        border-radius: 6px;
+    }
+}
 
+@media (max-width: 770px){
+    header{
+        height: 40px;
+    }
+    .logo {
+        width: 90px;
+    }
+    .records{
+        max-width: 100%;
+        user-select: none;
+        text-align: left;
+        table-layout: fixed;
+    }
+    
+    .records th{
+        height: 20px;
+        padding-left: 0px;
+        font-size: 0.7rem;    
+    }
+    tbody{
+        font-size: 0.5rem;
+    }
+    .button{
+        border-style: none;
+        height: 20px;
+        padding: 6px 10px;
+        background-color: black;
+        color: white;
+        font-size: 0.5rem;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 500px){
+    header{
+        height: 30px;
+    }
+    .logo {
+        margin-top: 6px;
+        width: 70px;
+    }
+    .records{
+        max-width: 100%;
+        user-select: none;
+        text-align: left;
+        table-layout: fixed;
+    }
+    
+    .records th{
+        height: 15px;
+        padding-left: 0px;
+        font-size: 0.5rem;    
+    }
+    tbody{
+        font-size: 0.4rem;
+    }
+    .button{
+        border-style: none;
+        height: 15px;
+        padding: 6px 10px;
+        background-color: black;
+        color: white;
+        font-size: 0.4rem;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
 /* MODAL */
 .modal{
     position: fixed;
