@@ -2,7 +2,7 @@
     <img src="App/src/img/slogan-SisGeps.png" height="100px" alt="Descrição da Imagem">
 </p>
 
-<h1 align="center"> Sistema de Gerenciamento de Estoque para Supermercado</h1>
+<h1 align="center"> Sistema de Gerenciamento para Supermercado</h1>
 
 <h2> <p>&#128187 Equipe de Desenvolvimento</p> </h2> 
 
@@ -37,9 +37,9 @@
 
 <br>
 <h2>Descrição</h2>
-<p>Este é um MVP web em sua versão inicial, ele apresenta funcionalidades essenciais para atender às necessidades básicas dos usuários com o objetivo de automatizar e organizar os processos relacionados ao controle de estoque, compra e venda de produtos em um supermercado de bairro.</p>
+<p>Este é um MVP web em sua versão inicial, ele apresenta funcionalidades essenciais para atender às necessidades básicas dos usuários com o objetivo de automatizar e organizar os processos relacionados ao gerenciamento de estoque e entrega de produtos.</p>
 
-<p> O presente Sistema de Gerenciamento de Estoque de Produtos de um Supermercado de Bairro foi idealizado como sendo uma solução para organizar, automatizar e aprimorar os processos relacionados ao controle de estoque, compra e venda de produtos em pequenos supermercados de bairro. </p>
+<p> O presente Sistema de Gerenciamento para Supermercado foi idealizado inicialmente como sendo uma solução para organizar, automatizar e aprimorar os processos relacionados a entregas de mercadorias, controle de estoque, compra e venda de produtos em pequenos supermercados de bairro. </p>
 
 <p> Nessa perspectiva, esta documentação será um facilitador para a construção, desenvolvimento e manutenção do sistema. Além disso, esse artefato nos fornece uma comunicação eficaz entre os membros da equipe e demais partes interessadas no projeto. </p> <br>
 
