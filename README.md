@@ -46,7 +46,10 @@
 <h2>Apresentação Audiovisual no Youtube do SisGeps</h2> <br>
 <p>            
     <a href="https://youtu.be/VpZJPhAZrUo" target="_blank">  Vídeo explicativo MVP web funcional - Versão 1.0 </a> 
-</p> <br>
+</p> 
+<p>            
+    <a href="https://youtu.be/oZeYe5YYws8" target="_blank">  Vídeo explicativo MVP web funcional - Versão 2.0 (Disciplina: Desenvolvimento para Web)</a> 
+</p><br>
 
 <h2>Páginas</h2>
 A seguir apresentaremos as telas do SisGeps
